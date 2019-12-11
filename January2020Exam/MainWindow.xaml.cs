@@ -51,6 +51,9 @@ namespace January2020Exam
 
 
             /*
+            will need to generate 2 random numbers and then select from array of firstnames and surnames.
+
+            also will need to generate a random date of birth withing limits to give age between 20-30
 
             string[] firstNames = {
                 "Adam", "Amelia", "Ava", "Chloe", "Conor", "Daniel", "Emily",
@@ -96,12 +99,6 @@ namespace January2020Exam
             if (selectedPlayer == null)
                 txtBlkDescription.Text = "No player has been selected";
         }
-
-
-        //private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        //{
-
-        //}
 
        
 
