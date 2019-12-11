@@ -38,6 +38,7 @@ namespace January2020Exam
         }
 
 
+
         private List<Player> CreatePlayers()           //method to create and return the list of players
         {
 
@@ -46,10 +47,8 @@ namespace January2020Exam
             //test listbox by adding player
             {
                 FirstName = "Sophie", Surname = "O'Neill", DateOfBirth = new DateTime(1999, 06, 02),
-      
-
-
             };
+
 
             /*
 
@@ -77,7 +76,7 @@ namespace January2020Exam
             Player selected = lstBxAllPlayers.SelectedItem as Player;
             
         }
-        private void lstBxSelectedActivities_SelectionChanged(object sender, SelectionChangedEventArgs e) //selected players list block
+        private void lstBxSelectedPlayers_SelectionChanged(object sender, SelectionChangedEventArgs e) //selected players list block
         {
             //allows for an object to be selected from the list
             Player selected = lstBxSelectedPlayers.SelectedItem as Player;
@@ -99,10 +98,10 @@ namespace January2020Exam
         }
 
 
-        private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
+        //private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        //{
 
-        }
+        //}
 
        
 

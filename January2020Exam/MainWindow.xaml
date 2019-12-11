@@ -11,7 +11,7 @@
             <ColumnDefinition Width="175*"/>
             <ColumnDefinition Width="817*"/>
         </Grid.ColumnDefinitions>
-        <ListBox x:Name="lstBxAllPlayers" HorizontalAlignment="Left" Height="250" Margin="30,125,0,0" VerticalAlignment="Top" Width="250" SelectionChanged="lstbxAllPlayers_SelectionChanged" Grid.Column="1"/>
+        <ListBox x:Name="lstBxAllPlayers" HorizontalAlignment="Left" Height="250" Margin="30,125,0,0" VerticalAlignment="Top" Width="250" SelectionChanged="lstBxAllPlayers_SelectionChanged" Grid.Column="1"/>
         <ListBox x:Name="lstBxSelectedPlayers" HorizontalAlignment="Left" Height="250" Margin="480,125,0,0" VerticalAlignment="Top" Width="250" SelectionChanged="lstBxSelectedPlayers_SelectionChanged" Grid.Column="1"/>
         <Label x:Name="lblTitle" Content="Team App" HorizontalAlignment="Left" Margin="30,20,0,0" VerticalAlignment="Top" Width="250" Height="45" FontSize="24" Foreground="#FF617CDA" FontWeight="Bold" Grid.Column="1"/>
         <Label x:Name="lblAll" Content="All Players" HorizontalAlignment="Left" Margin="30,99,0,0" VerticalAlignment="Top" Width="175" FontSize="16" Grid.Column="1"/>
