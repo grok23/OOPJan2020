@@ -27,5 +27,15 @@ namespace January2020Exam
             }
         }
 
+
+
+
+
+
+        //overrride of ToString to output player name, age and position
+        public override string ToString()
+        {
+            return $"{FirstName} {Surname} ({Age}){PreferredPosition}";
+        }
     }
 }
