@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 namespace January2020Exam
 {
     //declare positions as enum
-    public enum Position { GoalKeeper, Defender, Midfielder, Forward }
+    public enum Position { Goalkeeper, Defender, Midfielder, Forward }
 
-    class Player : IComparable
+    class Player //: IComparable  //add later to allow sorting of players
     {
         public string FirstName { get; set; }
         public string Surname { get; set; }
@@ -25,6 +25,19 @@ namespace January2020Exam
                     _age--;
                 return _age;
             }
+        }
+        
+        //constructors
+        public Player()  //base constructor
+        {
+
+        }
+        public Player(string firstName, string surname, DateTime DoB, Position prefPosition )  //base constructor
+        {
+            FirstName = firstName;
+            Surname = Surname;
+            DateOfBirth = DoB;
+            PreferredPosition = prefPosition;
         }
 
 
