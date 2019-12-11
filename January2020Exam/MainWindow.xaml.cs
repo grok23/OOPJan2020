@@ -104,7 +104,7 @@ namespace January2020Exam
 
         private void btnLeft_Click(object sender, RoutedEventArgs e)
         {
-            Player selectedPlayer = lstBxAllPlayers.SelectedItem as Player;
+            Player selectedPlayer = lstBxSelectedPlayer.SelectedItem as Player;
 
             if (selectedPlayer != null)    //checks if a player has been selected and then adds/removes from relevant lists
             {
